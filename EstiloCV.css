@@ -1,0 +1,330 @@
+*{
+    background-color: white;
+}
+
+header{
+    background-color: black;
+    width: 96vw;
+    height: 35vh;
+    border: solid;
+    margin:auto;
+
+    margin-top: 2vw;
+
+    position: relative; 
+}
+
+
+img{
+    position: absolute;
+
+    height: 140%;
+
+    top: 25%;
+    left: 8%;
+    z-index: 2;
+}
+
+#nombre{
+    /*por defecto los h1 son vistos como bloques*/
+    position: absolute;
+    margin: 0;
+
+    right: 0%;
+    top: 5%;
+
+    width: 65%;
+    height: 70%;
+    
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    background-color: transparent;
+    border: solid;
+    border-width: 3px;
+    border-color: transparent;
+    color: white;
+    font-size: 90px;
+    letter-spacing: 5px;
+}
+
+#profesion{
+    position: relative;
+    width: 55vw;
+    height: 10vh;
+    background-color: black;
+
+    /*border: solid red 2px;
+    box-sizing: border-box;*/
+
+    margin-left: 42vw;
+    margin-top: 2vh;
+}
+
+#profesion h1{
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    margin: 0;
+
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    font-size: 35px;
+
+    left: 5%;
+    top: 22%;
+}
+
+.triangulo{
+    position: absolute;
+    
+    width: 0px;
+    height: 0px;
+
+    top: 0;
+    right: 55vw;
+    border-left: 6vw solid transparent;
+    border-bottom: 10vh solid black;
+}
+
+#contenido{
+    position: relative;
+
+    width: 96vw;
+    height: 230vh;
+    background-color: transparent;
+
+    margin-top: 8vh;
+    margin-left: 2vh;
+}
+
+#izquierda{
+    position: absolute;
+
+    width: 39vw;
+    height: 200vh;
+    background-color: white;
+
+    left: 2%;
+    top:1%;
+}
+
+#derecha{
+    position: absolute;
+
+    width: 44vw;
+    height: 220vh;
+    background-color: white;
+
+    right: 2%;
+    top:0;
+}
+
+#separador{
+    position: absolute;
+
+    width: 2vw;
+    height: 220vh;
+    background-color: transparent;
+
+    border-right: solid 1vw black;
+    border-left: solid 1vw black;
+
+    top: 0;
+    left: 45%;
+}
+
+.subtitulo{
+    
+    padding-left: 10%;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+
+    font-size:38px;
+
+    margin-top: 5%;
+}
+
+.lista.big{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: 22px;
+
+    padding-left: 15%;
+}
+
+.lista.small{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+
+}
+/*espacio entre puntos de la lista*/
+.lista.small li{
+    margin-bottom: 3%;
+}
+
+.bloque.lenguage{
+    width: 37vw;
+    height: 18vh;
+    background-color: transparent;
+}
+
+.Esc_Emp{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-size: 31px;
+
+    padding-left: 5%; 
+    margin-bottom: 1%;  
+}
+
+.enum_fecha{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+
+    margin-top: 1%;   
+}
+
+.bloque.about p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-align: justify;
+    line-height: 1.5;
+
+    padding-right: 5%;
+    margin-top: 2%;
+  
+}
+
+.Youtube.title{
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.link{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.link :hover{
+    color: red;
+}
+
+.lista.small.empleo ul{
+    margin-top: 3%;
+    padding-left: 80px;
+}
+
+.enum_fecha.empleo{
+    margin-bottom: 3%;
+}
+
+footer{
+    position: relative;
+
+    height: 30vh;
+    background-color: black;
+}
+
+
+/*Subir el about*/
+.subtitulo.a{
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+footer > h2{
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-family: "PT Serif", serif;
+    font-size: 60px;
+
+    padding-left: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 10%;
+
+
+    bottom: 73%;
+}
+
+#triangulo2{
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    background-color: aqua;
+
+    border-bottom: 85.7px solid black;
+    border-right: 110px solid white;
+
+    left: 34.5%;
+    bottom: 100%;
+}
+
+#logo_correo{
+    position: absolute;
+
+    width: 6%;
+    height: 43%;
+
+    top: 25%; 
+}
+
+#correo{
+    position: absolute;
+
+    color: azure;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: sans-serif;
+
+    top: 23%;
+    left: 16%;
+}
+
+#logo_telefono{
+    position: absolute;
+
+    width: 6%;
+    height: 43%;
+
+    left: 55%;
+    top: 25%;
+}
+
+#telefono{
+    position: absolute;
+
+    color: azure;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: sans-serif;
+
+    top: 23%;
+    left: 64%
+}
+
+
+
+
+
+
+
+
+
+
+
+
